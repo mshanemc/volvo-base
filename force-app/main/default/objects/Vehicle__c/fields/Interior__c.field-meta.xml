@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interior__c</fullName>
+    <externalId>false</externalId>
+    <label>Interior</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amber Leather in Charcoal</fullName>
+                <default>false</default>
+                <label>Amber Leather in Charcoal</label>
+            </value>
+            <value>
+                <fullName>Blond Leather in Blond/Charcoal Interior</fullName>
+                <default>true</default>
+                <label>Blond Leather in Blond/Charcoal Interior</label>
+            </value>
+            <value>
+                <fullName>Charcoal Leather in Charcoal Interior</fullName>
+                <default>false</default>
+                <label>Charcoal Leather in Charcoal Interior</label>
+            </value>
+            <value>
+                <fullName>Amber Nappa Leaher w/ Contour Seats in Charcoal Interior</fullName>
+                <default>false</default>
+                <label>Amber Nappa Leaher w/ Contour Seats in Charcoal Interior</label>
+            </value>
+            <value>
+                <fullName>Blond Leather w/ Contour Seats in Blond/Charcoal Interior</fullName>
+                <default>false</default>
+                <label>Blond Leather w/ Contour Seats in Blond/Charcoal Interior</label>
+            </value>
+            <value>
+                <fullName>Charcoal Nappa Leather w/ Contour Seats in Charcoal Interior</fullName>
+                <default>false</default>
+                <label>Charcoal Nappa Leather w/ Contour Seats in Charcoal Interior</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

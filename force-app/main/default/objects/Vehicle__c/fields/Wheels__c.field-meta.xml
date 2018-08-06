@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wheels__c</fullName>
+    <externalId>false</externalId>
+    <label>Wheels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>19" 10-Spoke Turbine Silver Bright Alloy Wheels</fullName>
+                <default>true</default>
+                <label>19" 10-Spoke Turbine Silver Bright Alloy Wheels</label>
+            </value>
+            <value>
+                <fullName>20" 5-Double Spoke Matte Tech Black Alloy Wheels</fullName>
+                <default>false</default>
+                <label>20" 5-Double Spoke Matte Tech Black Alloy Wheels</label>
+            </value>
+            <value>
+                <fullName>21” 5 V-Spoke Black Diamond Cut Alloy Wheels</fullName>
+                <default>false</default>
+                <label>21” 5 V-Spoke Black Diamond Cut Alloy Wheels</label>
+            </value>
+            <value>
+                <fullName>22" 6-Double Spoke Matte Tech Black Diamond Cut Alloy Wheels w/Summer Performance Tires*</fullName>
+                <default>false</default>
+                <label>22" 6-Double Spoke Matte Tech Black Diamond Cut Alloy Wheels w/Summer Performance Tires*</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

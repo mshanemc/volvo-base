@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Protection Package Premier</label>
+    <type>Checkbox</type>
+    <fullName>Protection_Package_Premier__c</fullName>
+    <defaultValue>false</defaultValue>
+</CustomField>
