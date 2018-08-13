@@ -5,7 +5,7 @@
             "default": true,
             "package": "vehicle_base",
             "versionName": "ver 0.1",
-            "versionNumber": "0.2.0.NEXT"
+            "versionNumber": "0.3.0.NEXT"
         }
     ],
     "namespace": "",
@@ -13,6 +13,7 @@
     "sourceApiVersion": "43.0",
     "packageAliases": {
         "vehicle_base": "0Ho6A000000CaUVSA0",
-        "vehicle_base@0.2.0-1": "04t6A0000038FLEQA2"
+        "vehicle_base@0.2.0-1": "04t6A0000038FLEQA2",
+        "vehicle_base@0.3.0-1": "04t6A0000038FLYQA2"
     }
 }
