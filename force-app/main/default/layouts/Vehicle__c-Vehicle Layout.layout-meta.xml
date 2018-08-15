@@ -125,7 +125,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Manufact         uring</label>
+        <label>Manufacturing</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
