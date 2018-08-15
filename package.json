@@ -5,9 +5,9 @@
   "main": "none",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./orgInit.sh",
+    "build": "sfdx shane:org:delete; ./orgInit.sh",
     "reset-data": "sfdx force:apex:execute -f scripts/dataWipe.cls && sfdx force:apex:execute -f scripts/init.cls",
-    "publish" : "sfdx shane:package2:version:bump --minor -r -c"
+    "publish" : "sfdx shane:package2:version:bump --minor -r -c && git add sfdx-project.json && git commit -m 'version bump' && git push origin master"
   },
   "repository": {
     "type": "git",
