@@ -27,6 +27,16 @@ public with sharing class sampleDataCreation {
 
         insert c;
 
+
+        contact c2 = new contact();
+        c2.FirstName = 'Shane';
+        c2.LastName = 'McLaughlin';
+        c2.Email = 'shane.mclaughlin@salesforce.com';
+        c2.MobilePhone = '832-472-8021';
+
+        insert c2;
+
+
         Vehicle__c v = new Vehicle__c();
         v.Convenience_Package__c = true;
         v.Engine__c = 'T5 FWD';
@@ -43,6 +53,44 @@ public with sharing class sampleDataCreation {
         v.Year__c = '2018';
 
         insert v;
+
+
+        Vehicle__c vs = new Vehicle__c();
+        vs.Convenience_Package__c = false;
+        vs.Engine__c = 'T8 eAWD Plug-in Hybrid';
+        vs.Delivery_Date__c = Date.newInstance(2015, 11, 29);
+        vs.Dealer__c = a.Id;
+        vs.Owner__c = c2.Id;
+        vs.Hybrid__c = true;
+        vs.Interior__c = 'Amber Leather in Charcoal';
+        vs.Model__c = 'V60';
+        vs.Momentum_Plus_Package__c = false;
+        vs.Paint__c = '5';
+        vs.Protection_Package_Premier__c = false;
+        vs.Status__c = 'Ownership';
+        vs.Wheels__c = '19" 10-Spoke Turbine Silver Bright Alloy Wheels';
+        vs.Year__c = '2016';
+        vs.Manufacturing_Status__c = 'Delivered';
+        vs.Price__c = 48625;
+        insert vs;
+
+        Loan__c l = new Loan__c();
+        l.Customer__c = c2.Id;
+        l.Interest__c = 3.25;
+        l.Price__c = 48625;
+        l.SSN__c = '489583885';
+        l.Terms__c = 36;
+        l.Status__c = 'Approved';
+        l.Vehicle__c = vs.Id;
+        l.Employer__c = 'Salesforce.com, Inc';
+        l.DownPayment__c = 5000;
+
+        insert l;
+
+        Delivery__c d = new Delivery__c();
+        d.Customer__c = c2.Id;
+        d.Vehicle__c = vs.Id;
+        insert d;
 
         Event e = new Event();
         e.WhatId = v.Id;

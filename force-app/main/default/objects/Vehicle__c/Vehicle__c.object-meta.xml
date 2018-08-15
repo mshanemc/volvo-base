@@ -66,6 +66,8 @@
     </nameField>
     <pluralLabel>Vehicles</pluralLabel>
     <searchLayouts>
+        <customTabListAdditionalFields>Year__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Model__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Owner__c</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Model__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Owner__c</searchResultsAdditionalFields>
