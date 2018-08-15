@@ -1,0 +1,22 @@
+{
+  "name": "volvo-base",
+  "version": "0.0.1",
+  "description": "base package for df18 campground booths",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./orgInit.sh",
+    "reset-data": "sfdx force:apex:execute -f scripts/dataWipe.cls && sfdx force:apex:execute -f scripts/init.cls",
+    "publish" : "sfdx shane:package2:version:bump --minor -r -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshanemc/volvo-base.git"
+  },
+  "author": "Shane McLaughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshanemc/volvo-base/issues"
+  },
+  "homepage": "https://github.com/mshanemc/volvo-base#readme"
+}
