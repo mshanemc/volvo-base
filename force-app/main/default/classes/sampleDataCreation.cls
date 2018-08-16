@@ -72,6 +72,7 @@ public with sharing class sampleDataCreation {
         vs.Year__c = '2016';
         vs.Manufacturing_Status__c = 'Delivered';
         vs.Price__c = 48625;
+        vs.VIN__c = 'YV1DZ8256C2271234';
         insert vs;
 
         Loan__c l = new Loan__c();
