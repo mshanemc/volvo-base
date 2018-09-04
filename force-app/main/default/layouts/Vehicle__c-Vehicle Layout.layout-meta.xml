@@ -276,6 +276,15 @@
         <relatedList>Loan__c.Vehicle__c</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>ExternalId</fields>
+        <fields>Begins__c</fields>
+        <fields>Ends__c</fields>
+        <fields>WarrantyType__c</fields>
+        <relatedList>Warranty__x.VIN__c</relatedList>
+        <sortField>Begins__c</sortField>
+        <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
         <fields>NAME</fields>
         <relatedList>Invoice__c.Vehicle__c</relatedList>
     </relatedLists>
@@ -315,7 +324,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0S000000Vons</masterLabel>
+        <masterLabel>00h0R000000Pgj4</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
