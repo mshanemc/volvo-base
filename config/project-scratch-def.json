@@ -1,9 +1,16 @@
 {
-    "orgName": "shane.mclaughlin Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled", "PathAssistantsEnabled"],
-        "disabled": ["S1EncryptedStoragePref2"]
+  "orgName": "volvo-base",
+  "adminEmail": "shane@mailinator.com",
+  "edition": "Developer",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantsEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
     }
-
+  }
 }
